@@ -2,14 +2,14 @@
 
 Este projeto é um script de automação **ETL (Extract, Transform, Load)** desenvolvido em Python. Ele automatiza o processo de leitura de arquivos de dados corporativos (Excel ou CSV), realiza o tratamento e limpeza dos dados, e carrega-os de forma segura num banco de dados PostgreSQL.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 * **Multi-formato:** Detecção e leitura automática de arquivos `.xlsx` e `.csv`.
 * **Limpeza Inteligente:** Uso de **Regex** para sanitizar nomes de colunas (remove acentos, espaços e caracteres especiais automaticamente).
 * **Segurança Transacional:** Implementação de **COMMIT** e **ROLLBACK**. Se ocorrer qualquer erro durante a inserção de 1.000 linhas, o script desfaz tudo para evitar dados corrompidos (Atomicidade).
 * **Preparação Automática:** Recriação automática da estrutura da tabela (`DROP/CREATE`) baseada dinamicamente nas colunas do arquivo.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Python 3.x**
 * **Pandas:** Para manipulação e leitura de DataFrames.
@@ -20,7 +20,7 @@ Este projeto é um script de automação **ETL (Extract, Transform, Load)** dese
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
+    git clone https://github.com/AbnerFonseca-creator/Projeto.git
     ```
 
 2.  **Instale as dependências:**
