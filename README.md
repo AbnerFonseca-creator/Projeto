@@ -1,4 +1,4 @@
-# Pipeline ETL: Excel/CSV para PostgreSQL
+# ETL: Excel/CSV para PostgreSQL
 
 Este projeto é um script de automação **ETL (Extract, Transform, Load)** desenvolvido em Python. Ele automatiza o processo de leitura de arquivos de dados corporativos (Excel ou CSV), realiza o tratamento e limpeza dos dados, e carrega-os de forma segura num banco de dados PostgreSQL.
 
@@ -16,7 +16,7 @@ Este projeto é um script de automação **ETL (Extract, Transform, Load)** dese
 * **Psycopg2:** Para conexão robusta e execução de comandos SQL no PostgreSQL.
 * **PostgreSQL:** Banco de dados relacional.
 
-## ⚙️ Como Configurar
+## Como Configurar
 
 1.  **Clone o repositório:**
     ```bash
